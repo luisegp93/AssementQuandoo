@@ -2,7 +2,7 @@
 Technical test application
 
 * The selected technology stack was Cypress.
-* The reason behind using Cypress would be the fact that it can handle both UI Automation & API Automation out of the box. The possibility to mix API & UI automation on a same test script gives amazing possibilies to us as automators. Also setup is pretty simple and community support is growing and a really fast rate for this tool. 
+* The reason behind using Cypress would be the fact that it can handle both UI Automation & API Automation out of the box. The possibility to mix API & UI automation on a same test script gives amazing possibilies to us as automators. Also setup is pretty simple and community support is growning at a really fast rate for this tool. 
 
 In order to run the test cases please first install all dependencies running "npm install" from command line on root folder.
 
