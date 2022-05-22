@@ -1,0 +1,29 @@
+{   "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true,
+    "reportPageTitle": "Quandoo Report"
+  },
+    "defaultCommandTimeout": 30000,
+    "taskTimeout": 300000,
+    "pageLoadTimeout": 70000,
+    "requestTimeout": 10000,
+    "pluginsFile": "cypress/plugins/index.js",
+    "integrationFolder": "cypress/integration",
+    "fixturesFolder": "cypress/fixtures",
+    "supportFile": "cypress/support/index.js",
+    "chromeWebSecurity": false,
+    "viewportWidth": 1280,
+    "viewportHeight": 800,
+    "video": false,
+    "numTestsKeptInMemory": 3,
+    "retries": {
+      "runMode": 1,
+      "openMode": 0
+    },
+    "env": {
+        "loginPage": "http://the-internet.herokuapp.com/login",
+        "username": "tomsmith",
+        "password": "SuperSecretPassword!"
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "quandooassestment",
+  "version": "1.0.0",
+  "description": "Technical test application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisegp93/QuandooAssestment.git"
+  },
+  "author": "Luis Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisegp93/QuandooAssestment/issues"
+  },
+  "homepage": "https://github.com/luisegp93/QuandooAssestment#readme",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "cypress-mochawesome-reporter": "^3.1.0"
+  }
+}
